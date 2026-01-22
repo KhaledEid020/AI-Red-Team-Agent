@@ -113,7 +113,7 @@ Now, the sub-agent calls the tool that has been assigned to it.
 
 <p align="left">
   <img 
-    src="https://github.com/user-attachments/assets/a02003bc-e7c9-4fb8-a93f-9ac6f91a29b1"
+    src="https://github.com/user-attachments/assets/eac44f10-e891-4a15-b81f-a1c4c6ae722b"
     alt="Tool Calling"
     width="700"
   />
@@ -125,11 +125,20 @@ Now, the sub-agent calls the tool that has been assigned to it.
 
 <br>
 
-<img width="1043" height="389" alt="image" src="https://github.com/user-attachments/assets/a02003bc-e7c9-4fb8-a93f-9ac6f91a29b1" />
 
-<img width="1037" height="425" alt="image" src="https://github.com/user-attachments/assets/eac44f10-e891-4a15-b81f-a1c4c6ae722b" />
+<p align="left">
+  <img 
+    src="https://github.com/user-attachments/assets/585e400a-30e8-49fe-88af-fa7a31603ae4"
+    alt="Tool Calling"
+    width="700"
+  />
+</p>
 
-<img width="1036" height="438" alt="image" src="https://github.com/user-attachments/assets/585e400a-30e8-49fe-88af-fa7a31603ae4" />
+<p align="left">
+  <em>Figure 4: Sub-agent is calling gobuster pen test tool from our MCP</em>
+</p>
+
+<br>
 
 
 and so on...
