@@ -36,7 +36,7 @@ In this POC, we will use a **real infrastructure** instead of dummy ones, and by
 
 <br>
 
-As illustrated in the image above, we set up the following:
+As illustrated in the image above, we **set up** the following:
 * Local SLM Qwen3-8B-AWQ using vLLM, we use local and not cloud model for data confidently in domain like Cybersecurity. The local LLM will be available at http://localhost:8000/v1
 
 * **[hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)** Pentest MCP server, which will beavailable at http://localhost:5050/mcp
