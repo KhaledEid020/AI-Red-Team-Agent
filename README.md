@@ -42,7 +42,7 @@ As illustrated in the image above, we set up the following:
 
 The screenshot below shows what the Supervisor thinks after the user enters the prompt.
 
-<p align="center">
+<p align="left">
   <img 
     src="https://github.com/user-attachments/assets/ec1a8252-a9ce-4ea2-91ef-34c7aaa0caac"
     alt="Supervisor reasoning after user prompt submission"
