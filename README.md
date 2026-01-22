@@ -14,12 +14,15 @@ To achieve our goal, the best approach to use is using **Deep Agents** which bui
 * It will also dynamically launch ephemeral subagents for complex and independent tasks ysing built in tool called **task**.
 * It have Filesystem Tools such as **ls**, **read_file**, **write_file**, **edit_file**, **glob** and **grep**.
 
+---
+
 ### Infrastructure Overview
 
 In this POC, we will use a **real infrastructure** instead of dummy ones, and by the end, we will see **real-world results**.
 
 ![Nua](https://github.com/user-attachments/assets/3a38a57d-1582-4c3c-b0ce-bae7db79538f)
 
+---
 
 As illustrated in the image above, we set up the following:
 * Local SLM Qwen3-8B-AWQ using vLLM, we use local and not cloud model for data confidently in domain like Cybersecurity. The local LLM will be available at http://localhost:8000/v1
