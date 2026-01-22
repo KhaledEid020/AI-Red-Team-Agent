@@ -19,6 +19,7 @@ To achieve our goal, the best approach to use is using [**Deep Agents**](https:/
 ### Infrastructure Overview
 
 In this POC, we will use a **real infrastructure** instead of dummy ones, and by the end, we will see **real-world results**.
+<br>
 
 ![Nua](https://github.com/user-attachments/assets/3a38a57d-1582-4c3c-b0ce-bae7db79538f)
 
@@ -30,7 +31,7 @@ As illustrated in the image above, we set up the following:
 * **[hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)** Pentest MCP server, which will beavailable at http://localhost:5050/mcp
 ---
 ### Deep Agent Architecture Overview
-
+<br>
 ![Nua-Copy of Infra](https://github.com/user-attachments/assets/a88182de-95da-4526-9744-9fec0b362687)
 
 ---
@@ -45,7 +46,7 @@ As illustrated in the image above, we set up the following:
 ---
 
 The screenshot below shows what the Supervisor thinks after the user enters the prompt.
-
+<br>
 <p align="left">
   <img 
     src="https://github.com/user-attachments/assets/ec1a8252-a9ce-4ea2-91ef-34c7aaa0caac"
@@ -57,7 +58,7 @@ The screenshot below shows what the Supervisor thinks after the user enters the 
 <p align="left">
   <em>Figure 1: Supervisor’s reasoning flow after the user submits a prompt.</em>
 </p>
-
+<br>
 Now, it will create the TODO list.
 
 <p align="left">
@@ -72,6 +73,7 @@ Now, it will create the TODO list.
   <em>Figure 2: TODO list creation</em>
 </p>
 
+<br>
 <img width="1044" height="443" alt="image" src="https://github.com/user-attachments/assets/79636b53-b115-424f-b6c7-42c1f1e06302" />
 
 <img width="1043" height="389" alt="image" src="https://github.com/user-attachments/assets/a02003bc-e7c9-4fb8-a93f-9ac6f91a29b1" />
