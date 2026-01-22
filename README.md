@@ -125,17 +125,18 @@ Now, the sub-agent calls the tool that has been assigned to it.
 
 <br>
 
+Now, the Supervisor is updating the plan based on the tool results.
 
 <p align="left">
   <img 
     src="https://github.com/user-attachments/assets/585e400a-30e8-49fe-88af-fa7a31603ae4"
-    alt="Tool Calling"
+    alt="Supervisor is updating"
     width="700"
   />
 </p>
 
 <p align="left">
-  <em>Figure 4: Sub-agent is calling gobuster pen test tool from our MCP</em>
+  <em>Figure 5: The Supervisor is updating the TODO list</em>
 </p>
 
 <br>
@@ -143,6 +144,7 @@ Now, the sub-agent calls the tool that has been assigned to it.
 
 and so on...
 
+<br>
 
 Also, we connect the agent with LangSmith as shown below.
 
