@@ -31,6 +31,10 @@ As illustrated in the image above, we set up the following:
 
 ### How the Agent Works
 
+![Nua](https://github.com/user-attachments/assets/3a38a57d-1582-4c3c-b0ce-bae7db79538f)
+
+![Nua-Copy of Infra](https://github.com/user-attachments/assets/a88182de-95da-4526-9744-9fec0b362687)
+
 ![[Pasted image 20260122141319.png]]
 
 ![[Pasted image 20260122141442.png]]
