@@ -35,14 +35,16 @@ As illustrated in the image above, we set up the following:
 
 Our Deep Agents uses progressive disclosure with memory files and skills:
 
-AGENTS.md (always loaded) - Contains:
+**AGENTS.md** (always loaded) - Contains:
+<br>
+* Agent identity and role
+* Core principles and safety rules
+* General guidelines
+* Communication style
+<br>
 
-Agent identity and role
-Core principles and safety rules
-General guidelines
-Communication style
-skills/ (loaded on-demand) - Specialized workflows
-
+**skills/ (loaded on-demand) - Specialized workflows**
+<br>
 The agent sees skill descriptions in its context but only loads the full SKILL.md instructions when it determines which skill is needed for the current task. This progressive disclosure pattern keeps context efficient while providing deep expertise when needed.
 
 
