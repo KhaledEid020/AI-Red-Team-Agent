@@ -14,17 +14,17 @@ To achieve our goal, the best approach to use is using **Deep Agents** which bui
 * It will also dynamically launch ephemeral subagents for complex and independent tasks ysing built in tool called **task**.
 * It have Filesystem Tools such as **ls**, **read_file**, **write_file**, **edit_file**, **glob** and **grep**.
 
+### Infrastructure Overview
+
 In this POC, we will use a **real infrastructure** instead of dummy ones, and by the end, we will see **real-world results**.
 
-![[Nua.jpg]]
+![Nua](https://github.com/user-attachments/assets/3a38a57d-1582-4c3c-b0ce-bae7db79538f)
+
 
 As illustrated in the image above, we set up the following:
 * Local SLM Qwen3-8B-AWQ using vLLM, we use local and not cloud model for data confidently in domain like Cybersecurity. The local LLM will be available at http://localhost:8000/v1
 
 * **[hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)** Pentest MCP server, which will beavailable at http://localhost:5050/mcp
-
-![Nua](https://github.com/user-attachments/assets/3a38a57d-1582-4c3c-b0ce-bae7db79538f)
-
 
 ### Deep Agent Architecture Overview
 
@@ -32,6 +32,13 @@ As illustrated in the image above, we set up the following:
 
 
 ### How the Agent Works
+
+1. The user will request: “Perform a comprehensive security assessment of my web application at http://testphp.vulnweb.com”, which is a deliberately vulnerable website used for testing purposes.
+2. The Supervisor will plan the assessment by using available MCP tools to transform this objective into a structured TODO list.
+3. The Supervisor will create a sub-agent for each task and assign a specific MCP tool to it.
+4. Each sub-agent will perform its assigned task, invoke the designated tool, and return the results to the Supervisor node. 
+5. The Supervisor will adjust the TODO list accordingly, if needed, until the objective is completed.
+
 
 <img width="1043" height="460" alt="image" src="https://github.com/user-attachments/assets/ec1a8252-a9ce-4ea2-91ef-34c7aaa0caac" />
 
