@@ -40,7 +40,20 @@ As illustrated in the image above, we set up the following:
 5. The Supervisor will adjust the TODO list accordingly, if needed, until the objective is completed.
 
 
-<img width="1043" height="460" alt="image" src="https://github.com/user-attachments/assets/ec1a8252-a9ce-4ea2-91ef-34c7aaa0caac" />
+The screenshot below shows what the Supervisor thinks after the user enters the prompt.
+
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/ec1a8252-a9ce-4ea2-91ef-34c7aaa0caac"
+    alt="Supervisor reasoning after user prompt submission"
+    width="700"
+  />
+</p>
+
+<p align="center">
+  <em>Figure 1: Supervisor’s reasoning flow after the user submits a prompt.</em>
+</p>
+
 
 <img width="1044" height="443" alt="image" src="https://github.com/user-attachments/assets/79636b53-b115-424f-b6c7-42c1f1e06302" />
 
