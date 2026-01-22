@@ -46,7 +46,7 @@ Our Deep Agents uses progressive disclosure with memory files and skills:
 **skills/ (loaded on-demand) - Specialized workflows**
 <br>
 The agent sees skill descriptions in its context but only loads the full SKILL.md instructions when it determines which skill is needed for the current task. This progressive disclosure pattern keeps context efficient while providing deep expertise when needed.
-
+<br>
 
 
 ![Nua-Copy of Infra](https://github.com/user-attachments/assets/a88182de-95da-4526-9744-9fec0b362687)
@@ -54,9 +54,9 @@ The agent sees skill descriptions in its context but only loads the full SKILL.m
 ---
 ### How the Agent Works
 
-1. The user will request: “Perform a comprehensive security assessment of my web application at http://testphp.vulnweb.com”, which is a deliberately vulnerable website used for testing purposes.
-2. The Supervisor will plan the assessment by using available MCP tools to transform this objective into a structured TODO list.
-3. The Supervisor will create a sub-agent for each task and assign a specific MCP tool to it.
+1. The user will request: **“Perform a comprehensive security assessment of my web application at http://testphp.vulnweb.com”**, which is a deliberately vulnerable website used for testing purposes.
+2. The Supervisor will plan the assessment with available MCP tools to transform this objective into a structured **TODO list**.
+3. The Supervisor will create a **sub-agent** for each task and assign a specific MCP tool to it.
 4. Each sub-agent will perform its assigned task, invoke the designated tool, and return the results to the Supervisor node. 
 5. The Supervisor will adjust the TODO list accordingly, if needed, until the objective is completed.
 
@@ -75,6 +75,7 @@ The screenshot below shows what the Supervisor thinks after the user enters the 
 <p align="left">
   <em>Figure 1: Supervisor’s reasoning flow after the user submits a prompt.</em>
 </p>
+
 <br>
 Now, it will create the TODO list.
 
@@ -91,7 +92,38 @@ Now, it will create the TODO list.
 </p>
 
 <br>
-<img width="1044" height="443" alt="image" src="https://github.com/user-attachments/assets/79636b53-b115-424f-b6c7-42c1f1e06302" />
+
+At this stage, the system is creating a specialized sub-agent.
+
+<p align="left">
+  <img 
+    src="https://github.com/user-attachments/assets/a02003bc-e7c9-4fb8-a93f-9ac6f91a29b1"
+    alt="specialized sub-agent"
+    width="700"
+  />
+</p>
+
+<p align="left">
+  <em>Figure 3: Specialized sub-agent creation</em>
+</p>
+
+<br>
+
+Now, the sub-agent calls the tool that has been assigned to it.
+
+<p align="left">
+  <img 
+    src="https://github.com/user-attachments/assets/a02003bc-e7c9-4fb8-a93f-9ac6f91a29b1"
+    alt="Tool Calling"
+    width="700"
+  />
+</p>
+
+<p align="left">
+  <em>Figure 4: Sub-agent is calling gobuster pen test tool from our MCP</em>
+</p>
+
+<br>
 
 <img width="1043" height="389" alt="image" src="https://github.com/user-attachments/assets/a02003bc-e7c9-4fb8-a93f-9ac6f91a29b1" />
 
