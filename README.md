@@ -5,7 +5,7 @@ Create an AI agent that leverages a Supervisor architecture for automated penetr
 - The Supervisor must convert the security assessment objective into a structured **TODO list**.
 - The Supervisor must **dynamically** create specialized **sub-agents** and assign each sub-agent specific tools to use.
 - The Supervisor and sub-agents must have access to the following tools: `read_file`, `write_file`, and `edit_file` for **context engineering** support.
-
+---
 ### Approach
 
 To achieve our goal, the best approach to use is using **Deep Agents** which built on **Langchain** and **Langgraph** frameworks.
@@ -28,12 +28,12 @@ As illustrated in the image above, we set up the following:
 * Local SLM Qwen3-8B-AWQ using vLLM, we use local and not cloud model for data confidently in domain like Cybersecurity. The local LLM will be available at http://localhost:8000/v1
 
 * **[hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)** Pentest MCP server, which will beavailable at http://localhost:5050/mcp
-
+---
 ### Deep Agent Architecture Overview
 
 ![Nua-Copy of Infra](https://github.com/user-attachments/assets/a88182de-95da-4526-9744-9fec0b362687)
 
-
+---
 ### How the Agent Works
 
 1. The user will request: “Perform a comprehensive security assessment of my web application at http://testphp.vulnweb.com”, which is a deliberately vulnerable website used for testing purposes.
