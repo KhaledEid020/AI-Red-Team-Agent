@@ -8,7 +8,7 @@ Create an AI agent that leverages a Supervisor architecture for automated penetr
 ---
 ### Approach
 
-To achieve our goal, the best approach to use is using [**Deep Agents**](https://github.com/langchain-ai/deepagents/tree/master) which built on **Langchain** and **Langgraph** frameworks.
+To achieve our goal, the best approach to use is using [**Deep Agents**](https://github.com/langchain-ai/deepagents/tree/master) which built on **Langgraph** framework.
 
 * Deep agent will allow us to create and manage structured task lists for tracking progress through complex workflows using built in tool called **write_todos**.
 * It will also dynamically launch ephemeral subagents for complex and independent tasks ysing built in tool called **task**.
@@ -42,6 +42,7 @@ As illustrated in the image above, we set up the following:
 4. Each sub-agent will perform its assigned task, invoke the designated tool, and return the results to the Supervisor node. 
 5. The Supervisor will adjust the TODO list accordingly, if needed, until the objective is completed.
 
+---
 
 The screenshot below shows what the Supervisor thinks after the user enters the prompt.
 
@@ -57,6 +58,19 @@ The screenshot below shows what the Supervisor thinks after the user enters the 
   <em>Figure 1: Supervisor’s reasoning flow after the user submits a prompt.</em>
 </p>
 
+Now, it will create the TODO list.
+
+<p align="left">
+  <img 
+    src="https://github.com/user-attachments/assets/79636b53-b115-424f-b6c7-42c1f1e06302"
+    alt="TODO list creation"
+    width="700"
+  />
+</p>
+
+<p align="left">
+  <em>Figure 2: TODO list creation</em>
+</p>
 
 <img width="1044" height="443" alt="image" src="https://github.com/user-attachments/assets/79636b53-b115-424f-b6c7-42c1f1e06302" />
 
