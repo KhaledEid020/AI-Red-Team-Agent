@@ -23,31 +23,30 @@ As illustrated in the image above, we set up the following:
 
 * **[hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)** Pentest MCP server, which will beavailable at http://localhost:5050/mcp
 
+![Nua](https://github.com/user-attachments/assets/3a38a57d-1582-4c3c-b0ce-bae7db79538f)
+
 
 ### Deep Agent Architecture Overview
 
+![Nua-Copy of Infra](https://github.com/user-attachments/assets/a88182de-95da-4526-9744-9fec0b362687)
 
-![[Nua-Copy of Infra.jpg]]
 
 ### How the Agent Works
 
-![Nua](https://github.com/user-attachments/assets/3a38a57d-1582-4c3c-b0ce-bae7db79538f)
+<img width="1043" height="460" alt="image" src="https://github.com/user-attachments/assets/ec1a8252-a9ce-4ea2-91ef-34c7aaa0caac" />
 
-![Nua-Copy of Infra](https://github.com/user-attachments/assets/a88182de-95da-4526-9744-9fec0b362687)
+<img width="1044" height="443" alt="image" src="https://github.com/user-attachments/assets/79636b53-b115-424f-b6c7-42c1f1e06302" />
 
-![[Pasted image 20260122141319.png]]
+<img width="1043" height="389" alt="image" src="https://github.com/user-attachments/assets/a02003bc-e7c9-4fb8-a93f-9ac6f91a29b1" />
 
-![[Pasted image 20260122141442.png]]
+<img width="1037" height="425" alt="image" src="https://github.com/user-attachments/assets/eac44f10-e891-4a15-b81f-a1c4c6ae722b" />
 
-![[Pasted image 20260122141736.png]]
+<img width="1036" height="438" alt="image" src="https://github.com/user-attachments/assets/585e400a-30e8-49fe-88af-fa7a31603ae4" />
 
-![[Pasted image 20260122141836.png]]
-
-![[Pasted image 20260122142100.png]]
 
 and so on...
 
 
 Also, we connect the agent with LangSmith as shown below.
 
-![[LangSmith.png]]
+<img width="1073" height="489" alt="image" src="https://github.com/user-attachments/assets/f52d0e01-b9a5-4d3a-a733-190ebca45735" />
