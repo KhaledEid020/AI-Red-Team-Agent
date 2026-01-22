@@ -23,7 +23,7 @@ In this POC, we will use a **real infrastructure** instead of dummy ones, and by
 
 ![Nua](https://github.com/user-attachments/assets/3a38a57d-1582-4c3c-b0ce-bae7db79538f)
 
----
+<br>
 
 As illustrated in the image above, we set up the following:
 * Local SLM Qwen3-8B-AWQ using vLLM, we use local and not cloud model for data confidently in domain like Cybersecurity. The local LLM will be available at http://localhost:8000/v1
@@ -32,6 +32,21 @@ As illustrated in the image above, we set up the following:
 ---
 ### Deep Agent Architecture Overview
 <br>
+
+Our Deep Agents uses progressive disclosure with memory files and skills:
+
+AGENTS.md (always loaded) - Contains:
+
+Agent identity and role
+Core principles and safety rules
+General guidelines
+Communication style
+skills/ (loaded on-demand) - Specialized workflows
+
+The agent sees skill descriptions in its context but only loads the full SKILL.md instructions when it determines which skill is needed for the current task. This progressive disclosure pattern keeps context efficient while providing deep expertise when needed.
+
+
+
 ![Nua-Copy of Infra](https://github.com/user-attachments/assets/a88182de-95da-4526-9744-9fec0b362687)
 
 ---
