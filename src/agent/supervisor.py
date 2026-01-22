@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
 # --- Configuration ---
 INFERENCE_SERVER_URL = "http://localhost:8000/v1"
-MCP_SERVER_URL = "http://51.112.164.143:5050/mcp"
+MCP_SERVER_URL = "http://localhost:5050/mcp"
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
 # --- LLM Setup ---
@@ -50,7 +50,7 @@ async def initialize_agent():
         
         input_data = {
             "messages": [
-                {"role": "user", "content": "what custom tools spealized in web pentest you are conntected with right now? list the tool with thier descritpion"},
+                {"role": "user", "content": "Perform a comprehensive security assessment of my web application at http://testphp.vulnweb.com"},
             ]
         }
 
