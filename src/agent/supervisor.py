@@ -7,7 +7,7 @@ from langchain_openai import ChatOpenAI
 from deepagents import create_deep_agent
 from deepagents.backends import FilesystemBackend
 
-# Configure logging to show internal connection info
+# Configure logging
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
 # --- Configuration ---
@@ -44,7 +44,6 @@ async def initialize_agent():
         backend=FilesystemBackend(root_dir=base_dir)  # Persistent file storage
     )
 
-    # Added check to ensure streaming logic only runs when executed as a script
     if __name__ == "__main__":
         print("\n=== STARTING SECURITY ASSESSMENT (STREAMING) ===\n")
         
@@ -85,5 +84,4 @@ async def initialize_agent():
 graph = asyncio.run(initialize_agent())
 
 if __name__ == "__main__":
-    # This just ensures the script runs the logic if called via 'python supervisor.py'
     pass
