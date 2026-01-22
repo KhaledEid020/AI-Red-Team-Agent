@@ -21,7 +21,18 @@ To achieve our goal, the best approach to use is using [**Deep Agents**](https:/
 In this POC, we will use a **real infrastructure** instead of dummy ones, and by the end, we will see **real-world results**.
 <br>
 
-![Nua](https://github.com/user-attachments/assets/3a38a57d-1582-4c3c-b0ce-bae7db79538f)
+<p align="left">
+  <img 
+    src="https://github.com/user-attachments/assets/3a38a57d-1582-4c3c-b0ce-bae7db79538f"
+    alt="Infra"
+    width="700"
+  />
+</p>
+
+<p align="left">
+  <em>Figure 1: Infrastructure Overview</em>
+</p>
+
 
 <br>
 
@@ -48,8 +59,17 @@ Our Deep Agents uses progressive disclosure with memory files and skills:
 The agent sees skill descriptions in its context but only loads the full SKILL.md instructions when it determines which skill is needed for the current task. This progressive disclosure pattern keeps context efficient while providing deep expertise when needed.
 <br>
 
+<p align="left">
+  <img 
+    src="https://github.com/user-attachments/assets/a88182de-95da-4526-9744-9fec0b362687"
+    alt="Infra"
+    width="700"
+  />
+</p>
 
-![Nua-Copy of Infra](https://github.com/user-attachments/assets/a88182de-95da-4526-9744-9fec0b362687)
+<p align="left">
+  <em>Figure 2: Deep Agent Architecture Overview</em>
+</p>
 
 ---
 ### How the Agent Works
@@ -73,7 +93,7 @@ The screenshot below shows what the Supervisor thinks after the user enters the 
 </p>
 
 <p align="left">
-  <em>Figure 1: Supervisor’s reasoning flow after the user submits a prompt.</em>
+  <em>Figure 3: Supervisor’s reasoning flow after the user submits a prompt.</em>
 </p>
 
 <br>
@@ -88,7 +108,7 @@ Now, it will create the TODO list.
 </p>
 
 <p align="left">
-  <em>Figure 2: TODO list creation</em>
+  <em>Figure 4: TODO list creation</em>
 </p>
 
 <br>
@@ -104,7 +124,7 @@ At this stage, the system is creating a specialized sub-agent.
 </p>
 
 <p align="left">
-  <em>Figure 3: Specialized sub-agent creation</em>
+  <em>Figure 5: Specialized sub-agent creation</em>
 </p>
 
 <br>
@@ -120,7 +140,7 @@ Now, the sub-agent calls the tool that has been assigned to it.
 </p>
 
 <p align="left">
-  <em>Figure 4: Sub-agent is calling gobuster pen test tool from our MCP</em>
+  <em>Figure 6: Sub-agent is calling gobuster pen test tool from our MCP</em>
 </p>
 
 <br>
@@ -136,7 +156,7 @@ Now, the Supervisor is updating the plan based on the tool results.
 </p>
 
 <p align="left">
-  <em>Figure 5: The Supervisor is updating the TODO list</em>
+  <em>Figure 7: The Supervisor is updating the TODO list</em>
 </p>
 
 <br>
