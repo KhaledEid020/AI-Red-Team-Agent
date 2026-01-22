@@ -25,7 +25,7 @@ In this POC, we will use a **real infrastructure** instead of dummy ones, and by
   <img 
     src="https://github.com/user-attachments/assets/3a38a57d-1582-4c3c-b0ce-bae7db79538f"
     alt="Infra"
-    width="700"
+    width="300"
   />
 </p>
 
@@ -63,7 +63,7 @@ The agent sees skill descriptions in its context but only loads the full SKILL.m
   <img 
     src="https://github.com/user-attachments/assets/a88182de-95da-4526-9744-9fec0b362687"
     alt="Infra"
-    width="700"
+    width="500"
   />
 </p>
 
