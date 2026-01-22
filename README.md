@@ -8,7 +8,7 @@ Create an AI agent that leverages a Supervisor architecture for automated penetr
 ---
 ### Approach
 
-To achieve our goal, the best approach to use is using **Deep Agents** which built on **Langchain** and **Langgraph** frameworks.
+To achieve our goal, the best approach to use is using [**Deep Agents**](https://github.com/langchain-ai/deepagents/tree/master) which built on **Langchain** and **Langgraph** frameworks.
 
 * Deep agent will allow us to create and manage structured task lists for tracking progress through complex workflows using built in tool called **write_todos**.
 * It will also dynamically launch ephemeral subagents for complex and independent tasks ysing built in tool called **task**.
