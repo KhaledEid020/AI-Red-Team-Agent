@@ -50,7 +50,7 @@ The screenshot below shows what the Supervisor thinks after the user enters the 
   />
 </p>
 
-<p align="center">
+<p align="left">
   <em>Figure 1: Supervisor’s reasoning flow after the user submits a prompt.</em>
 </p>
 
